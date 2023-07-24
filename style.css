@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+html {
+    scroll-snap-type: y mandatory;
+}
+.hero {
+    scroll-snap-align:start ;   
+}
+.slide {
+    scroll-snap-align:start ;   
+    /* scroll-snap-stop: always; */
+}
+/** hero section **/
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: #00E6B3;
+}
+
+/** snap scroll
+1st overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+2nd
+
+scroll-snap-align:start ;**/
+
+.navbar {
+    display: flex;
+    background-color: #00E6B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.text-logo {
+    width: 70%;
+    margin-left: 2rem;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.buttons {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px solid transparent;
+    border-radius: 3px 0 3px 0;
+    background-color: #FF2E93;
+    color: white;
+}
+
+.hero-image {
+    width: 564.711px;
+    height: 446.236px;
+    background-image: url("images/Hero-Art-Group.png");
+    background-size: cover;
+}
+
+.hero-content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+
+.hero-text p {
+    font-weight: 800;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+.hero-text2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+/** slide 2 **/
+
+.slide {
+    display: flex;
+    
+}
+
+.left-container {
+    height: 100vh;
+    width: 50%;
+    background-color: #FF2E93;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pc-image {
+    background-image: url("images/cyborg-on-pc.png");
+    width: 420px;
+    height: 420px;
+}
+
+.right-container {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-container h1 {
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.right-container p {
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 60px;
+
+}
+
+.right-container a {
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+/** slide 3 **/
+
+.left-container2 {
+    height: 100vh;
+    width: 50%;
+    background-color: #FF2E93;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumping-image {
+    background-image: url("images/cyborg-jumping.png");
+    width: 600px;
+height: 412px;
+    background-size: cover;
+}
+
+.right-container2 {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-container2 h1 {
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.right-container2 p {
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 60px;
+
+}
+
+/** footer slide **/
+.footer-slide {
+    height: 100vh;
+    width: 100%;
+    background-color: #00E6B3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-team {
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+    line-height: 60px;
+    margin-right: 25px;
+}
+
+.footer-download {
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-download-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-download-content p {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-download-content button {
+    margin-top: 20px;
+}
+
+.footer-image {
+    background-image: url("images/cyborg-virtual.png");
+    width: 420px;
+    height: 420px;
+    background-size: cover;
+}
+
+.footer-download-content button {
+    padding: 15px;
+    border: 0px solid transparent;
+    border-radius: 6px 0 6px 0;
+    background-color: #FF2E93;
+    color: white;
+    font-size: 30px;
+}
+
+button:hover {
+    border: 2px solid white;
+}
